@@ -1,0 +1,106 @@
+{
+  "autos": [
+    {
+      "id": "rodex-a1",
+      "img": "vehiculos/autos/audi-a5.png",
+      "title": "Audi A5 Sportback",
+      "desc": "2.0 TFSI de 265 CV con tracción quattro y caja S tronic de 7 velocidades. Interior con Virtual Cockpit.",
+      "price": 118000000
+    },
+    {
+      "id": "rodex-a2",
+      "img": "vehiculos/autos/audi-rs7.png",
+      "title": "Audi RS7 Sportback",
+      "desc": "V8 biturbo de 600 CV, 0 a 100 km/h en 3.6 s. Suspensión neumática adaptativa y frenos cerámicos.",
+      "price": 375000000
+    },
+    {
+      "id": "rodex-a3",
+      "img": "vehiculos/autos/bmw-320i.png",
+      "title": "BMW 320i M Sport",
+      "desc": "Motor 2.0 turbo de 184 CV, paquete M Sport, llantas de 18\" y asientos deportivos en cuero Vernasca.",
+      "price": 137500000
+    },
+    {
+      "id": "rodex-a4",
+      "img": "vehiculos/autos/bmw-x5.png",
+      "title": "BMW X5 xDrive40i",
+      "desc": "SUV de 7 plazas con tracción integral xDrive, techo panorámico y sistema de sonido Harman Kardon.",
+      "price": 244500000
+    },
+    {
+      "id": "rodex-a5",
+      "img": "vehiculos/autos/mercedes-cle63.png",
+      "title": "Mercedes-AMG CLE 63",
+      "desc": "Coupé AMG con motor híbrido de alto rendimiento, escape deportivo variable y diferencial trasero activo.",
+      "price": 350000000
+    },
+    {
+      "id": "rodex-a6",
+      "img": "vehiculos/autos/mercedesCLA2019.png",
+      "title": "Mercedes-Benz CLA 200",
+      "desc": "Modelo 2019 con 48.000 km reales, service oficial al día y garantía escrita de 12 meses.",
+      "price": 42000000
+    }
+  ],
+  "motos": [
+    {
+      "id": "rodex-m1",
+      "img": "vehiculos/motos/honda-cb750.png",
+      "title": "Honda CB750 Hornet",
+      "desc": "Bicilíndrica de 755 cc y 92 CV. Control de tracción de 3 niveles, embrague antirrebote y tablero TFT.",
+      "price": 23000000
+    },
+    {
+      "id": "rodex-m2",
+      "img": "vehiculos/motos/honda-navi.png",
+      "title": "Honda Navi 110",
+      "desc": "Urbana automática de 110 cc, ultraliviana y con espacio de carga frontal. Ideal para la ciudad.",
+      "price": 3430000
+    },
+    {
+      "id": "rodex-m3",
+      "img": "vehiculos/motos/yamaha-mt03.png",
+      "title": "Yamaha MT-03",
+      "desc": "Naked de 321 cc y 42 CV, chasis diamante y horquilla invertida KYB. Perfecta primera deportiva.",
+      "price": 12435000
+    },
+    {
+      "id": "rodex-m4",
+      "img": "vehiculos/motos/yamaha-r7.png",
+      "title": "Yamaha YZF-R7",
+      "desc": "Supersport de 689 cc con motor CP2, quickshifter opcional y aerodinámica derivada de la R1.",
+      "price": 25550000
+    }
+  ],
+  "cuatriciclos": [
+    {
+      "id": "rodex-c1",
+      "img": "vehiculos/cuatriciclos/honda-trx420.png",
+      "title": "Honda TRX 420 Rancher",
+      "desc": "Utilitario 4x4 de 420 cc con transmisión automática DCT, dirección asistida y enganche de arrastre.",
+      "price": 17600000
+    },
+    {
+      "id": "rodex-c2",
+      "img": "vehiculos/cuatriciclos/yamaha-yfm700.png",
+      "title": "Yamaha YFM 700 Raptor",
+      "desc": "Deportivo de 686 cc, chasis híbrido de aluminio y acero, suspensión regulable de largo recorrido.",
+      "price": 26000000
+    },
+    {
+      "id": "rodex-c3",
+      "img": "vehiculos/cuatriciclos/zanella-fx200.png",
+      "title": "Zanella FX 200",
+      "desc": "Monocilíndrico de 196 cc refrigerado por aire, arranque eléctrico y neumáticos de tacos para off road.",
+      "price": 3900000
+    },
+    {
+      "id": "rodex-c4",
+      "img": "vehiculos/cuatriciclos/zanella-fx250.png",
+      "title": "Zanella FX 250",
+      "desc": "Versión 250 cc con mayor torque, frenos a disco delanteros y parrilla reforzada para carga.",
+      "price": 4800000
+    }
+  ]
+}
