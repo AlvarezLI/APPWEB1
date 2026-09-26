@@ -12,6 +12,7 @@ El proyecto corresponde al Trabajo Práctico de la materia.
 ## Páginas
 
 | Página -- Descripción |
+<<<<<<< HEAD
 | `index.html` (raíz) -- Home con navbar, hero, grilla de las 3 categorías y productos destacados |
 | `pages/login/login.html` -- Formulario de inicio de sesión (email + contraseña) |
 | `pages/register/register.html` -- Formulario de registro (nombre, apellido, email, contraseña y fecha de nacimiento) |
@@ -19,6 +20,26 @@ El proyecto corresponde al Trabajo Práctico de la materia.
 | `pages/categorias/motos.html` -- Categoría Motos |
 | `pages/categorias/cuatriciclos.html` -- Categoría Cuatriciclos |
 | `pages/cart/cart.html` -- Carrito con cantidades, subtotales, total y compra |
+=======
+
+| `index.html` (raíz) -- Punto de entrada del sitio; redirige a `pages/index.html` |
+
+| `pages/index.html` -- Home con navbar, hero, grilla de las 3 categorías y productos destacados |
+
+| `pages/gate.html` -- Landing de bienvenida para quien todavía no inició sesión |
+
+| `pages/login.html` -- Formulario de inicio de sesión (email + contraseña) |
+
+| `pages/register.html` -- Formulario de registro (nombre, apellido, email, contraseña y fecha de nacimiento) |
+
+| `pages/autos.html` -- Categoría Autos |
+
+| `pages/motos.html` -- Categoría Motos |
+
+| `pages/cuatriciclos.html` -- Categoría Cuatriciclos |
+
+| `pages/cart.html` -- Carrito con cantidades, subtotales, total y compra |
+>>>>>>> ae880285e78b769bd4d672e41afcf4c8902636cc
 
 ## Funcionalidades
 
