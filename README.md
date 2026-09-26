@@ -31,7 +31,7 @@ El proyecto corresponde al Trabajo Práctico de la materia.
 | `pages/cuatriciclos.html` -- Categoría Cuatriciclos |
 
 | `pages/cart.html` -- Carrito con cantidades, subtotales, total y compra |
->>>>>>> ae880285e78b769bd4d672e41afcf4c8902636cc
+
 
 ## Funcionalidades
 
