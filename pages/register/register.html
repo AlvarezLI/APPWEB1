@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RODEX — Crear cuenta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../../css/styles.css" />
+</head>
+<body>
+
+  <header class="header"></header>
+
+  <main class="main">
+    <div class="auth">
+
+      <div class="auth__visual">
+        <p class="auth__visual-text">Creá<br />tu cuenta<br />Rodex</p>
+      </div>
+
+      <div class="auth__panel">
+        <div class="auth__box">
+
+          <p class="auth__eyebrow">Nueva cuenta</p>
+          <h1 class="auth__title">Registrarse</h1>
+          <p class="auth__subtitle">Completá el formulario para crear tu cuenta en RODEX.</p>
+
+          <form class="form" id="registerForm" novalidate>
+
+            <div class="form__row">
+              <div class="form__field">
+                <label class="form__label" for="nombre">Nombre</label>
+                <input class="form__input" type="text" id="nombre" name="nombre" placeholder="Juan" autocomplete="given-name" />
+              </div>
+              <div class="form__field">
+                <label class="form__label" for="apellido">Apellido</label>
+                <input class="form__input" type="text" id="apellido" name="apellido" placeholder="Pérez" autocomplete="family-name" />
+              </div>
+            </div>
+
+            <div class="form__field">
+              <label class="form__label" for="email">Correo electrónico</label>
+              <input class="form__input" type="email" id="email" name="email" placeholder="tu@correo.com" autocomplete="email" />
+            </div>
+
+            <div class="form__field">
+              <label class="form__label" for="password">Contraseña</label>
+              <input class="form__input" type="password" id="password" name="password" placeholder="Mínimo 8 caracteres" autocomplete="new-password" />
+            </div>
+
+            <div class="form__field">
+              <label class="form__label" for="fechaNacimiento">Fecha de nacimiento</label>
+              <input class="form__input" type="date" id="fechaNacimiento" name="fechaNacimiento" autocomplete="bday" />
+            </div>
+
+            <button type="submit" class="button form__button">Crear cuenta</button>
+
+            <p class="form__error" id="registerError"></p>
+
+          </form>
+
+          <p class="auth__footer">
+            ¿Ya tenés cuenta?
+            <a href="../login/login.html" class="auth__link">Iniciar sesión</a>
+          </p>
+
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script type="module" src="./register.js"></script>
+</body>
+</html>

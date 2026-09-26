@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RODEX — Cuatriciclos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../../css/styles.css" />
+</head>
+<body>
+
+  <header class="header"></header>
+
+  <main class="main">
+
+    <section class="page-header">
+      <div class="container">
+        <p class="page-header__store">RODEX · Categoría</p>
+        <h1 class="page-header__title">Cuatriciclos</h1>
+        <p class="page-header__text">
+          Modelos utilitarios y deportivos de Honda, Yamaha y Zanella, preparados para el trabajo rural y el off road.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section__title">Productos</h2>
+        <!-- Cards generadas desde data/productos.json -->
+        <div class="products" id="productos"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer"></footer>
+
+  <script type="module" src="./categoria.js"></script>
+</body>
+</html>

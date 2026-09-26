@@ -3,44 +3,82 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="refresh" content="0; url=pages/index.html" />
-  <title>RODEX</title>
-  <link rel="stylesheet" href="css/styles.css" />
+  <title>RODEX — Concesionaria Online</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/styles.css" />
 </head>
-<body class="gate-body">
+<body>
 
-  <div class="gate-wrap">
-    <div class="gate-content">
+  <!-- Navbar: la genera components/navbar.js -->
+  <header class="header"></header>
 
-      <div class="gate-brand">
-        <svg class="nav-logo" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <rect width="30" height="30" rx="7" fill="#0B1220"/>
-          <path d="M8 9l5 6-5 6" stroke="#3B82F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M16 9l5 6-5 6" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-        <span class="gate-brand-name">Rodex</span>
-      </div>
+  <main class="main">
 
-      <p class="gate-eyebrow">Cargando</p>
-      <h1 class="gate-title">Entrando a <em>RODEX</em></h1>
-      <p class="gate-sub">
-        Si la página no se abre automáticamente, entrá desde el botón.
+    <section class="hero">
+      <p class="hero__eyebrow">Catálogo 2026</p>
+      <h1 class="hero__title">Tu camino <span class="hero__highlight">empieza acá</span></h1>
+      <p class="hero__text">
+        Autos, motos y cuatriciclos de Audi, BMW, Mercedes-Benz, Honda, Yamaha y Zanella,
+        verificados uno por uno para salir a la ruta con confianza.
       </p>
+      <a href="./pages/categorias/autos.html" class="button hero__button">Ver catálogo</a>
+    </section>
 
-      <div class="gate-actions">
-        <a href="pages/index.html" class="gate-btn-primary">Ir a la tienda</a>
+    <section class="section">
+      <div class="container">
+        <h2 class="section__title">Categorías</h2>
+
+        <div class="categories">
+
+          <a href="./pages/categorias/autos.html" class="category-card">
+            <span class="category-card__num">01</span>
+            <h3 class="category-card__title">Autos</h3>
+            <span class="category-card__tag">0 km &amp; Usados</span>
+            <p class="category-card__desc">
+              Sedanes deportivos y SUV premium de Audi, BMW y Mercedes-Benz, entre unidades 0&nbsp;km y usadas.
+            </p>
+            <span class="category-card__arrow">&#8594;</span>
+          </a>
+
+          <a href="./pages/categorias/motos.html" class="category-card">
+            <span class="category-card__num">02</span>
+            <h3 class="category-card__title">Motos</h3>
+            <span class="category-card__tag">Urbanas &amp; Deportivas</span>
+            <p class="category-card__desc">
+              De la urbana Honda Navi a la supersport Yamaha YZF-R7, con naked y roadster en el medio.
+            </p>
+            <span class="category-card__arrow">&#8594;</span>
+          </a>
+
+          <a href="./pages/categorias/cuatriciclos.html" class="category-card">
+            <span class="category-card__num">03</span>
+            <h3 class="category-card__title">Cuatriciclos</h3>
+            <span class="category-card__tag">Off Road &amp; Utilitarios</span>
+            <p class="category-card__desc">
+              Modelos utilitarios y deportivos de Honda, Yamaha y Zanella para trabajo rural y off road.
+            </p>
+            <span class="category-card__arrow">&#8594;</span>
+          </a>
+
+        </div>
       </div>
+    </section>
 
-    </div>
+    <section class="section">
+      <div class="container">
+        <h2 class="section__title">Destacados</h2>
+        <!-- Cards generadas desde data/productos.json -->
+        <div class="products" id="destacados"></div>
+      </div>
+    </section>
 
-    <div class="gate-visual" aria-hidden="true">
-      <p class="gate-visual-text">
-        Rodex<br/>
-        Motors<br/>
-        Store
-      </p>
-    </div>
-  </div>
+  </main>
 
+  <!-- Footer: lo genera components/footer.js -->
+  <footer class="footer"></footer>
+
+  <script type="module" src="./index.js"></script>
 </body>
 </html>
