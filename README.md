@@ -71,7 +71,6 @@ El proyecto corresponde al Trabajo Práctico de la materia.
 El catálogo se carga con `fetch()` y el JavaScript usa módulos, y los navegadores bloquean ambas cosas al abrir el HTML con
 doble clic (protocolo `file://`). Para verlo funcionando, usá:
 
-- **Live Server** (extensión de VS Code): clic derecho en `index.html` → *Open with Live Server*.
 - **Python:** `python -m http.server 5500` en la carpeta del proyecto y entrar a
   `http://localhost:5500`.
 
