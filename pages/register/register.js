@@ -1,8 +1,4 @@
-/* ==========================================================
-   Controlador del Registro (simulado)
-   Se validan los campos del formulario y se redirige al login.
-   Todavía no se guardan usuarios: eso se hará con un backend en AW2.
-   ========================================================== */
+/* Controlador del Registro (simulado: no se guardan usuarios todavía) */
 
 import { iniciarNavbar } from '../../components/navbar.js';
 

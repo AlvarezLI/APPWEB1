@@ -1,8 +1,4 @@
-/* ==========================================================
-   Sesión del usuario (login simulado)
-   Por ahora no se validan las claves contra una base de datos:
-   solo se guarda el usuario en sessionStorage.
-   ========================================================== */
+/* Sesión del usuario (login simulado, se guarda en sessionStorage) */
 
 import { guardarUsuario, obtenerUsuario, eliminarUsuario } from './storage.js';
 

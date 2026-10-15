@@ -1,9 +1,4 @@
-/* ==========================================================
-   RODEX — Hoja de estilos
-   - Mobile first: los estilos base son para pantallas chicas
-     y con @media (min-width) se adaptan a pantallas grandes.
-   - Nomenclatura BEM: bloque__elemento--modificador
-   ========================================================== */
+/* RODEX — Hoja de estilos (mobile first, nomenclatura BEM) */
 
 /* ---------- Variables ---------- */
 :root {

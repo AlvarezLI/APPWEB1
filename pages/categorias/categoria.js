@@ -1,8 +1,4 @@
-/* ==========================================================
-   Controlador de las páginas de categoría
-   Lo usan autos.html, motos.html y cuatriciclos.html.
-   La categoría se toma del nombre del archivo: .../motos.html -> 'motos'
-   ========================================================== */
+/* Controlador de las páginas de categoría (autos, motos, cuatriciclos) */
 
 import { iniciarNavbar } from '../../components/navbar.js';
 import { iniciarFooter } from '../../components/footer.js';

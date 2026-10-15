@@ -1,7 +1,4 @@
-/* ==========================================================
-   Lógica del carrito
-   Cada ítem se guarda como { id, titulo, precio, imagen, cantidad }
-   ========================================================== */
+/* Lógica del carrito: cada ítem es { id, titulo, precio, imagen, cantidad } */
 
 import { obtenerCarrito, guardarCarrito } from './storage.js';
 

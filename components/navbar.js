@@ -1,8 +1,4 @@
-/* ==========================================================
-   Componente Navbar
-   Se arma desde el array navLinks y se inserta en el <header>
-   de todas las páginas, así no repetimos el HTML.
-   ========================================================== */
+/* Componente Navbar: se arma desde el array navLinks */
 
 import { obtenerUsuario } from '../utils/storage.js';
 import { cerrarSesion } from '../utils/sesion.js';

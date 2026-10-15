@@ -1,6 +1,4 @@
-/* ==========================================================
-   Componente Footer
-   ========================================================== */
+/* Componente Footer */
 
 export const footerComponent = `
   <span class="footer__brand">Rodex</span>

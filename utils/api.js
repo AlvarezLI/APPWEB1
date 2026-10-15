@@ -1,8 +1,4 @@
-/* ==========================================================
-   Obtención de datos
-   Trae los productos del archivo JSON usando fetch.
-   Retorna una promesa con el objeto { autos: [], motos: [], cuatriciclos: [] }
-   ========================================================== */
+/* Trae los productos de data/productos.json con fetch */
 
 export const obtenerProductos = (raiz) => {
   return fetch(`${raiz}data/productos.json`)

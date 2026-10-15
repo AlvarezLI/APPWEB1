@@ -1,7 +1,4 @@
-/* ==========================================================
-   Controlador del Home
-   Muestra los primeros 3 productos de cada categoría.
-   ========================================================== */
+/* Controlador del Home: muestra los primeros 3 productos de cada categoría */
 
 import { iniciarNavbar } from './components/navbar.js';
 import { iniciarFooter } from './components/footer.js';

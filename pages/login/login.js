@@ -1,8 +1,4 @@
-/* ==========================================================
-   Controlador del Login (simulado)
-   Solo se chequea que los campos estén completos; la validación
-   real de usuario y contraseña se hará con un backend en AW2.
-   ========================================================== */
+/* Controlador del Login (simulado: la validación real se hará en AW2) */
 
 import { iniciarNavbar } from '../../components/navbar.js';
 import { iniciarSesion } from '../../utils/sesion.js';

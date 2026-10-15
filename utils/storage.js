@@ -1,8 +1,4 @@
-/* ==========================================================
-   Acceso al almacenamiento del navegador
-   - sessionStorage: usuario logueado (se borra al cerrar la pestaña)
-   - localStorage:   productos del carrito (persisten)
-   ========================================================== */
+/* Acceso al almacenamiento: sessionStorage (usuario) y localStorage (carrito) */
 
 const CLAVE_USUARIO = 'usuario';
 const CLAVE_CARRITO = 'carrito';

@@ -1,8 +1,4 @@
-/* ==========================================================
-   Componente Card de producto
-   Muestra imagen, título, descripción, precio, control de
-   cantidad (+ / -) y botón para agregar al carrito.
-   ========================================================== */
+/* Componente Card de producto: imagen, título, descripción, precio y cantidad */
 
 import { formatearPrecio } from '../utils/formato.js';
 import { agregarAlCarrito } from '../utils/carrito.js';

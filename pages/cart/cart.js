@@ -1,9 +1,4 @@
-/* ==========================================================
-   Controlador del Carrito
-   Página protegida: para usar el carrito hay que estar logueado.
-   Muestra productos, cantidad, subtotal y total, y permite
-   eliminar productos, vaciar el carrito y finalizar la compra.
-   ========================================================== */
+/* Controlador del Carrito (página protegida: requiere sesión) */
 
 import { iniciarNavbar } from '../../components/navbar.js';
 import { iniciarFooter } from '../../components/footer.js';
