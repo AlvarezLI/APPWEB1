@@ -70,4 +70,4 @@ https://alvarezli.github.io/APPWEB1/
 
 - Adjunto link al repositorio: https://github.com/AlvarezLI/APPWEB1
 
-
+- Link al video explicativo: https://drive.google.com/drive/folders/15aOySLhXC6VZCo_uZWpBYCpglhyjmYgK?usp=sharing
