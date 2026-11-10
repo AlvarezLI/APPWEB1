@@ -2,6 +2,10 @@
 
 **Autor:** Alvarez Luis Ignacio Jesús
 
+**Sitio publicado:** https://alvarezli.github.io/APPWEB1/
+
+**Entrega final** (roadmap, tecnologías, mejoras y video): ver [ENTREGA_FINAL.md](ENTREGA_FINAL.md)
+
 ## Descripción
 
 RODEX es una tienda online (e-commerce) de vehículos: autos, motos y cuatriciclos.
@@ -51,7 +55,7 @@ El proyecto corresponde al Trabajo Práctico de la materia.
   `cardComponent()`; no hay HTML de productos duplicado entre páginas.
 - Selector de cantidad por producto y botón "Agregar al carrito".
 - Carrito persistido en `localStorage`, con contador en la navbar,
-  eliminación de ítems, vaciado del carrito y confirmación de compra.
+  cambio de cantidades (+/−), eliminación de ítems, vaciado del carrito y confirmación de compra.
 
 ## Tecnologías
 

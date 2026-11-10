@@ -30,6 +30,16 @@ export const eliminarDelCarrito = (id) => {
   guardarCarrito(carritoNuevo);
 };
 
+/* Suma o resta unidades de un ítem; si queda en 0 se elimina del carrito */
+export const cambiarCantidad = (id, diferencia) => {
+  const carrito = obtenerCarrito();
+  const item = carrito.find((producto) => producto.id === id);
+  if (!item) return;
+
+  item.cantidad = item.cantidad + diferencia;
+  guardarCarrito(carrito.filter((producto) => producto.cantidad > 0));
+};
+
 export const vaciarCarrito = () => {
   guardarCarrito([]);
 };

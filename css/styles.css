@@ -58,6 +58,38 @@ button {
   cursor: pointer;
 }
 
+/* ---------- Accesibilidad ---------- */
+.skip-link {
+  position: absolute;
+  top: -60px;
+  left: 12px;
+  z-index: 200;
+  padding: 10px 16px;
+  border-radius: var(--radio);
+  background-color: var(--color-acento);
+  color: var(--color-superficie);
+  transition: top 0.2s;
+}
+
+.skip-link:focus {
+  top: 12px;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 2px solid var(--color-acento);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
 /* ---------- Layout general ---------- */
 .main {
   padding-top: var(--alto-navbar);
@@ -704,6 +736,34 @@ button {
   height: 48px;
   object-fit: cover;
   border-radius: var(--radio);
+}
+
+.cart__qty {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cart__qty-btn {
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--color-borde-oscuro);
+  border-radius: var(--radio);
+  background: none;
+  font-size: 16px;
+  color: var(--color-texto);
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.cart__qty-btn:hover {
+  border-color: var(--color-acento);
+  color: var(--color-acento);
+}
+
+.cart__qty-value {
+  min-width: 20px;
+  text-align: center;
+  font-weight: 500;
 }
 
 .cart__remove {

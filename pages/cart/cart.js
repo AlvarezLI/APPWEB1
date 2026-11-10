@@ -4,7 +4,7 @@ import { iniciarNavbar } from '../../components/navbar.js';
 import { iniciarFooter } from '../../components/footer.js';
 import { estaLogueado } from '../../utils/sesion.js';
 import { obtenerCarrito } from '../../utils/storage.js';
-import { eliminarDelCarrito, vaciarCarrito, calcularTotal } from '../../utils/carrito.js';
+import { eliminarDelCarrito, cambiarCantidad, vaciarCarrito, calcularTotal } from '../../utils/carrito.js';
 import { formatearPrecio } from '../../utils/formato.js';
 
 const RAIZ = '../../';
@@ -20,7 +20,13 @@ const filaComponent = (item) => {
         </div>
       </td>
       <td class="cart__td">${formatearPrecio(item.precio)}</td>
-      <td class="cart__td">${item.cantidad}</td>
+      <td class="cart__td">
+        <div class="cart__qty">
+          <button class="cart__qty-btn" type="button" data-id="${item.id}" data-delta="-1" aria-label="Restar una unidad de ${item.titulo}">&#8722;</button>
+          <span class="cart__qty-value">${item.cantidad}</span>
+          <button class="cart__qty-btn" type="button" data-id="${item.id}" data-delta="1" aria-label="Sumar una unidad de ${item.titulo}">+</button>
+        </div>
+      </td>
       <td class="cart__td">${formatearPrecio(item.precio * item.cantidad)}</td>
       <td class="cart__td">
         <button class="cart__remove" type="button" data-id="${item.id}" aria-label="Eliminar producto">&#215;</button>
@@ -77,6 +83,13 @@ const actualizarPagina = () => {
 };
 
 const agregarEventos = (carrito) => {
+  document.querySelectorAll('.cart__qty-btn').forEach((boton) => {
+    boton.addEventListener('click', () => {
+      cambiarCantidad(boton.dataset.id, parseInt(boton.dataset.delta));
+      actualizarPagina();
+    });
+  });
+
   document.querySelectorAll('.cart__remove').forEach((boton) => {
     boton.addEventListener('click', () => {
       eliminarDelCarrito(boton.dataset.id);

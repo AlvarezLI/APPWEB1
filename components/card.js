@@ -15,7 +15,7 @@ export const cardComponent = (producto, raiz) => {
       <div class="card__footer">
         <div class="card__qty">
           <button class="card__qty-btn card__qty-btn--menos" type="button" aria-label="Restar uno">&#8722;</button>
-          <span class="card__qty-value">1</span>
+          <span class="card__qty-value" aria-live="polite">1</span>
           <button class="card__qty-btn card__qty-btn--mas" type="button" aria-label="Sumar uno">+</button>
         </div>
         <button class="button card__button" type="button">Agregar al carrito</button>
