@@ -8,7 +8,7 @@
 |---|---|
 | Sitio publicado (GitHub Pages) | https://alvarezli.github.io/APPWEB1/ |
 | Repositorio | https://github.com/AlvarezLI/APPWEB1 |
-| Video explicativo | **PENDIENTE: pegar acá el link (YouTube / Drive / Loom)** |
+| Video explicativo | https://drive.google.com/drive/folders/15aOySLhXC6VZCo_uZWpBYCpglhyjmYgK?usp=sharing |
 
 ## 2. Roadmap de desarrollo
 
