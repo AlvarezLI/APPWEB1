@@ -16,12 +16,12 @@ El proyecto se construyó por etapas, y cada una se apoyó en la anterior.
 
 | Etapa | Qué se hizo | Resultado |
 |---|---|---|
-| 1 — Estructura (ago 2026) | Elegí el rubro (concesionaria de autos, motos y cuatriciclos), armé las carpetas y las páginas HTML semánticas: home, 3 categorías, login, registro y carrito. | Esqueleto navegable. |
+| 1 — Estructura | Elegí el rubro (concesionaria de autos, motos y cuatriciclos), armé las carpetas y las páginas HTML semánticas: home, 3 categorías, login, registro y carrito. | Esqueleto navegable. |
 | 2 — Estilos | CSS mobile first con nomenclatura BEM, variables CSS, Flexbox para navbar y cards, Grid para categorías y grillas de productos. | Sitio responsive y consistente. |
 | 3 — Componentes y JS | Navbar, card y footer como funciones de JavaScript que devuelven HTML. Login y registro con validación de campos. | Sin HTML duplicado entre páginas. |
 | 4 — Datos y carrito | Catálogo en `data/productos.json` leído con `fetch`. Sesión del usuario en `sessionStorage`. Carrito en `localStorage`, con contador en la navbar y eliminación de ítems. | Flujo completo: elegir producto → carrito → compra. |
-| Correcciones (oct 2026) | Apliqué las observaciones de la primera entrega: módulos ES6, rutas protegidas, separación en `utils/`, descripciones del README. | Código más ordenado. |
-| Entrega final (nov 2026) | Edición de cantidades en el carrito, mejoras de accesibilidad, publicación en GitHub Pages y esta documentación. | Producto terminado. |
+| Correcciones | Apliqué las observaciones de la primera entrega: módulos ES6, rutas protegidas, separación en `utils/`, descripciones del README. | Código más ordenado. |
+| Entrega final | Edición de cantidades en el carrito, mejoras de accesibilidad, publicación en GitHub Pages y esta documentación. | Producto terminado. |
 
 **Iteraciones y cambios de rumbo**
 - Primero repetía el HTML de las cards en cada página. Lo pasé a un componente único (`cardComponent`), con lo que agregar un producto es solo editar el JSON.
